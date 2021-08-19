@@ -1,2 +1,2 @@
-# finalbot
- rasa chatbot with nodejs, mongodb connectivity
+# Bot UI with carousel and buttons
+ rasa chatbot with buttons
