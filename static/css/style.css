@@ -32,6 +32,21 @@ body {
   margin-top: 26px;
 }
 
+.containerbackground{
+  all: inherit;
+  overflow-y: hidden;
+  margin: 3rem;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  /* transform: rotate(300deg); */
+  /* -webkit-transform: rotate(300deg); */
+  color: #c6afaf;
+
+}
+
 .chats {
   /* display: none; */
   height: 100%;

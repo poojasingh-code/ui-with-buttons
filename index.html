@@ -1,12 +1,10 @@
 <html>
   <head>
     <title>Chatbot Widget</title>
-
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta content="utf-8" http-equiv="encoding" />
-
     <!--Import Google Icon Font-->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -71,10 +69,14 @@
         </div>
 
         <!--Chatbot contents goes here -->
-        <div class="chats" id="chats">
+        <div class="chats" id="chats" style="position: relative;">
+          <div class="containerbackground" id="containerbackground">
+           <!--chat-Background text-->
+          <p style="font-size: 150%;text-align: center; margin: 15%;"> Hi! I am your bot Assistant to help with you selecting courses.</p>
+        </div>
           <div class="clearfix"></div>
         </div>
-
+       
         <!--keypad for user to type the message -->
         <div class="keypad">
           <textarea
@@ -89,6 +91,12 @@
       </div>
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript">
+      $(function () {
+          $("#chats").ready("/chat_background.html");
+      });
+  </script> -->
+
     <script
       type="text/javascript"
       src="/js/lib/materialize.min.js"
@@ -98,5 +106,6 @@
     <script type="text/javascript" src="/js/script.js"></script>
 
     <script type="text/javascript" src="/js/lib/showdown.min.js"></script>
+  
   </body>
 </html>
