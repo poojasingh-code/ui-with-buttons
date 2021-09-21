@@ -263,7 +263,7 @@
  // eslint-disable-next-line no-unused-vars
  function actionTrigger() {
      $.ajax({
-         url: `http://localhost:5005/conversations/${sender_id}/execute`,
+         url: rasa_action_trigger_URL,
          type: "POST",
          contentType: "application/json",
          data: JSON.stringify({
@@ -300,7 +300,7 @@
  // eslint-disable-next-line no-unused-vars
  function customActionTrigger() {
      $.ajax({
-         url: "http://localhost:5055/webhook/",
+         url: rasa_customActionTrigger_URL,
          type: "POST",
          contentType: "application/json",
          data: JSON.stringify({

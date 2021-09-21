@@ -35,7 +35,6 @@ body {
 .containerbackground{
   all: inherit;
   overflow-y: hidden;
-  margin: 3rem;
   position: fixed;
   top: 0px;
   left: 0;
